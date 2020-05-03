@@ -8,7 +8,7 @@ services:
                 retsart: always
                 environment:
                         MYSQL_ROOT_PASSWORD: rootpass
-                        MYSQL_USER: sanjay
+                        MYSQL_USER: jami
                         MYSQL_PASSWORD: redhat
                         MYSQL_DATABASE: mydb
 
@@ -24,7 +24,7 @@ services:
                         - wp_storage_new:/var/www/html
                 enviornment:        
                         WORDPRESS_DB_HOST: dbos
-                        WORDPRESS_DB_USER: sanjay
+                        WORDPRESS_DB_USER: jami
                         WORDPRESS_DB_PASSWORD: redhat
                         WORDPRESS_DB_NAME: mydb
 
